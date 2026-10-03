@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shubpra.com/sitemap.xml

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found | Shubpra Group</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#121C3B">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Anek+Latin:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100svh; display: grid; place-items: center; overflow: hidden; position: relative; isolation: isolate;
+    background: #121C3B; color: #F8F6F1; font-family: "Anek Latin", "Segoe UI", system-ui, sans-serif; font-size: 1.125rem; line-height: 1.6; padding: 24px;
+  }
+  body::before, body::after { content: ""; position: absolute; z-index: -1; border-radius: 50%; filter: blur(70px); }
+  body::before { width: 460px; height: 460px; background: #EE6A4A; opacity: 0.25; right: -140px; top: -120px; }
+  body::after { width: 520px; height: 520px; background: #7A3FE4; opacity: 0.3; left: -200px; bottom: -220px; }
+  main { max-width: 36rem; }
+  .logo { width: 150px; height: auto; display: block; margin-bottom: 48px; }
+  .code {
+    font-family: "Sora", "Segoe UI", sans-serif; font-weight: 700; font-size: clamp(5rem, 20vw, 9rem); line-height: 0.9; letter-spacing: -0.06em; margin: 0 0 20px;
+    background: linear-gradient(100deg, #EE6A4A, #FFB199 40%, #A983FF 75%, #EE6A4A); background-size: 220% 100%;
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  h1 { font-family: "Sora", "Segoe UI", sans-serif; font-size: clamp(1.8rem, 5vw, 2.6rem); line-height: 1.08; letter-spacing: -0.03em; margin: 0 0 16px; }
+  p { margin: 0 0 32px; color: rgba(248, 246, 241, 0.75); }
+  a.btn { display: inline-flex; align-items: center; gap: 10px; min-height: 54px; padding: 0 28px; border-radius: 999px; background: #EE6A4A; color: #121C3B; font-family: "Sora", sans-serif; font-weight: 600; text-decoration: none; box-shadow: 0 12px 30px -12px rgba(238, 106, 74, 0.8); transition: background-color 200ms ease, transform 300ms ease; }
+  a.btn:hover { background: #FF8566; transform: translateY(-2px); }
+  a:focus-visible { outline: 3px solid #EE6A4A; outline-offset: 3px; }
+  @media (prefers-reduced-motion: no-preference) {
+    .code { animation: sheen 8s linear infinite; }
+    main > * { animation: rise 800ms cubic-bezier(.2, .7, .1, 1) both; }
+    main > :nth-child(2) { animation-delay: 80ms; }
+    main > :nth-child(3) { animation-delay: 160ms; }
+    main > :nth-child(4) { animation-delay: 240ms; }
+    main > :nth-child(5) { animation-delay: 320ms; }
+  }
+  @keyframes sheen { to { background-position: -220% 0; } }
+  @keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="/assets/shubpra-logo-on-dark.svg" alt="Shubpra Group">
+  <p class="code" aria-hidden="true">404</p>
+  <h1>This page doesn't exist.</h1>
+  <p>The link may be old or mistyped. Everything about Shubpra Group and Ekatra is on our homepage.</p>
+  <a class="btn" href="/">Go to the homepage &rarr;</a>
+</main>
+</body>
+</html>

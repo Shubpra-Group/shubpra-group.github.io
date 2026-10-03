@@ -58,6 +58,9 @@ Requests then arrive in your inbox, and visitors see a "Thanks, you're on the li
 - **Contact email:** once you create a `hello@shubpra.com` Google Group, replace the two addresses in the Contact section and in `CONFIG.emails` near the bottom of `index.html`.
 - **Team photos:** they load from your GitHub profile pictures. Change your GitHub photo and the site updates. If a photo can't load, your initials show instead.
 - **Colours:** all colours are defined at the top of the `<style>` section (`--midnight`, `--ivory`, `--coral`, `--violet` and others).
+- **Ekatra examples:** the monthly report (Glow Salon), the WhatsApp approval demo and the profile page (Rohan Digital) are sample data, labelled "Example" on the page. Edit them in the `panel-1`, `panel-2` and `panel-3` blocks of `index.html`.
+- **AI caption samples:** the five example captions are in the `captions` list near the bottom of `index.html`.
+- **Motion:** all animations switch off automatically for visitors who turn on "reduce motion" in their phone or computer settings.
 
 ## Check it works
 - Open `https://shubpra.com` on your phone and laptop.
